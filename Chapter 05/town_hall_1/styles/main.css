@@ -45,9 +45,11 @@ main {
 }
 main h1 {
 	font-size: 150%;
-	padding: .3em 0;
-	border-top: 3px solid #931420;
-	border-bottom: 3px solid #931420;
+	padding: .3em 0 .3em 2em;
+	border-color: #931420;
+	border-style: double;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0 #fd9f2c;
 }
 main h2 {
 	font-size: 130%;
