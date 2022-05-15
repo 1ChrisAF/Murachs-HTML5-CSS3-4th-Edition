@@ -23,6 +23,7 @@ body {
 header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100% );
 }
 header img {
 	float: left;
@@ -62,6 +63,7 @@ main p {
 }
 main blockquote {
 	padding: 0 2em;
+	font-style: italic;
 }
 main ul {
 	padding: 0 0 .25em 1.25em;
