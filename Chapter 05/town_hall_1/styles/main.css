@@ -1,40 +1,76 @@
 /* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: white;
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+	background-color: #fffded;
+	width: 600px;
+	margin: 0 auto;
+	border: 3px solid #931420;
 }
 .shadow {
 	text-shadow: 1px 1px 1px #800000;
 }
 
 /* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #931420;
+}
 header img {
 	float: left;
+	padding: 0 30px;
 }
 header h2 {
 	font-size: 170%;
 	color: #800000;
-	text-indent: 30px;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 
 /* the styles for the section */
 main {
 	clear: left;
+	padding: 0 30px;
 }
 main h1 {
 	font-size: 150%;
+	padding: .3em 0;
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
 }
 main h2 {
 	font-size: 130%;
 	color: #800000;
+	padding: .5em 0 .25em 0;
 }
 main h3 {
 	font-size: 105%;
+	padding: 0 0 .25em 0;
+}
+main p {
+	padding: 0 0 .5em 0;
+}
+main blockquote {
+	padding: 0 2em;
+}
+main ul {
+	padding: 0 0 .25em 1.25em;
+}
+main ul li {
+	padding: 0 0 .35em 0;
+}
+main img {
+	padding: 0 0 1em 0;
 }
 a:hover {
 	font-style: italic;
@@ -42,6 +78,16 @@ a:hover {
 
 /* the styles for the footer */
 footer {
+	border-top: 3px solid #931420;
 	text-align: center;
+	color: white;
+	background-color: #931420;
+	overflow: auto;
+}
+footer p {
+	padding: .5em 0;
+}
+footer img {
+	float: right;
 }
 
