@@ -1,0 +1,120 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	background-color: #fffded;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid #931420;
+}
+.shadow {
+	text-shadow: 1px 1px 1px #800000;
+}
+
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #931420;
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100% );
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+}
+section {
+	width: 525px;
+	padding: 0 20px 20px 20px;
+	float: right;
+}
+aside {
+	width: 215px;
+	padding: 0 0 20px 20px;
+	float: right;
+}
+section h2, aside h2 {
+	font-size: 130%;
+	color: #800000;
+	padding: .5em 0 .25em 0;
+}
+section h3, aside h3 {
+	font-size: 105%;
+	padding: 0 0 .25em 0;
+}
+section p {
+	padding: 0 0 .5em 0;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;
+	color: #800000;
+}
+section article {
+	padding: .5em 0;
+	
+}
+section article img {
+	float: right;
+	margin: 1em;
+	border: 1px solid black;
+}
+section article h2 {
+	padding-top: 0;
+	font-size: 105%;
+	padding-bottom: .25em;
+	color: black;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+}
+section ul li {
+	padding: 0 0 .35em 0;
+}
+aside img {
+	padding: 0 0 1em 0;
+}
+a:hover {
+	font-style: italic;
+}
+
+/* the styles for the footer */
+footer {
+	border-top: 3px solid #931420;
+	text-align: center;
+	color: white;
+	background-color: #931420;
+	clear: both;
+	overflow: auto;
+}
+footer p {
+	padding: .5em 0;
+}
+footer img {
+	float: right;
+}
+
