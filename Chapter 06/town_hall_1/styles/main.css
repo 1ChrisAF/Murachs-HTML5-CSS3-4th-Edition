@@ -11,7 +11,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 	background-color: #fffded;
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 	border: 3px solid #931420;
 }
@@ -41,39 +41,40 @@ header h3 {
 /* the styles for the section */
 main {
 	clear: left;
-	padding: 0 30px;
 }
-main h1 {
-	font-size: 150%;
-	padding: .3em 0 .3em 2em;
-	border-color: #931420;
-	border-style: double;
-	border-radius: 10px;
-	box-shadow: 3px 3px 0 #fd9f2c;
+section {
+	width: 525px;
+	padding: 0 20px 20px 20px;
+	float: right;
 }
-main h2 {
+aside {
+	width: 215px;
+	padding: 0 0 20px 20px;
+	float: right;
+}
+section h2, aside h2 {
 	font-size: 130%;
 	color: #800000;
 	padding: .5em 0 .25em 0;
 }
-main h3 {
+section h3, aside h3 {
 	font-size: 105%;
 	padding: 0 0 .25em 0;
 }
-main p {
+section p {
 	padding: 0 0 .5em 0;
 }
-main blockquote {
+section blockquote {
 	padding: 0 2em;
 	font-style: italic;
 }
-main ul {
+section ul {
 	padding: 0 0 .25em 1.25em;
 }
-main ul li {
+section ul li {
 	padding: 0 0 .35em 0;
 }
-main img {
+aside img {
 	padding: 0 0 1em 0;
 }
 a:hover {
@@ -86,6 +87,7 @@ footer {
 	text-align: center;
 	color: white;
 	background-color: #931420;
+	clear: both;
 	overflow: auto;
 }
 footer p {
