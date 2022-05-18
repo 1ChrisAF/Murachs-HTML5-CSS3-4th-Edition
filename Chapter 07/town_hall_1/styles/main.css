@@ -42,7 +42,7 @@ header h3 {
 main {
 	clear: left;
 }
-
+/* nav menu styles */
 #nav_menu ul {
 	position: relative;
 	list-style: none;
@@ -85,7 +85,7 @@ main {
 	display: block;
 	clear: both;
 }
-
+/* END nav menu styles */
 section {
 	width: 525px;
 	padding: 0 20px 20px 20px;

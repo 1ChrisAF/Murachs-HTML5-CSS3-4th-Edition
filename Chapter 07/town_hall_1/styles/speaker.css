@@ -42,6 +42,50 @@ header h3 {
 main {
 	clear: left;
 }
+/* nav menu styles */
+#nav_menu ul {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
+	display: block;
+	width: 160px;
+	padding: 1em 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: #800000;
+
+}
+/* Submenu is not displayed until cursor hovers over it */
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+/* Submenu items will NOT float, must display vertically under supermenu */
+#nav_menu ul ul li {
+	float: none;
+}
+/* Set HOVER psuedoselector for each li that has a child ul */
+#nav_menu ul li:hover > ul {
+	display: block;
+	content: "";
+	display: block;
+	clear: both;
+}
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* END nav menu styles */
 section {
 	width: 525px;
 	padding: 0 20px 20px 20px;
