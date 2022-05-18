@@ -136,6 +136,7 @@ section article h3 {
 }
 section ul {
 	padding: 0 0 .25em 1.25em;
+	list-style: circle;
 }
 section ul li {
 	padding: 0 0 .35em 0;
